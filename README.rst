@@ -9,6 +9,7 @@ Installation
 ------------
 
 1. Add "citylocations" to your INSTALLED_APPS setting in settings.py:
+
     INSTALLED_APPS = [
         ...
         
@@ -17,6 +18,6 @@ Installation
     ]
 
 2. Include the citylocations URLconf in your project urls.py like this::
-    path('', include('citylocations.urls')),
+   ``` path('', include('citylocations.urls'))</code> ```
 
 3. Start the development server and visit http://127.0.0.1:8000/
